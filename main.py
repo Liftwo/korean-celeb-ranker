@@ -2,11 +2,21 @@ from fastapi import FastAPI, Request
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import random
 import json
 import os
 
-app = FastAPI()
+app = FastAPI(title="Korean Celebrity Ranker")
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # In production, replace with your domain
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -28,6 +38,10 @@ async def home(request: Request):
     # Reset eliminated celebrities when starting a new game
     eliminated_celebs.clear()
     return templates.TemplateResponse("index.html", {"request": request})
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
 
 @app.get("/get-pair/{winner_id}/{loser_id}")
 async def get_pair(winner_id: int = None, loser_id: int = None):
@@ -61,4 +75,5 @@ async def get_pair(winner_id: int = None, loser_id: int = None):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    port = int(os.getenv("PORT", 8080))
+    uvicorn.run(app, host="0.0.0.0", port=port)
