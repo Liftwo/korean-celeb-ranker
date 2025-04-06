@@ -40,208 +40,183 @@
     "image": "/static/images/jung-hae-in.jpg"
   },
   {
-    "id": 10,
-    "name": "Wi Ha-joon",
-    "image": "/static/images/wi-ha-joon.jpg"
-  },
-  {
-    "id": 11,
+    "id": 9,
     "name": "Lee Jong-suk",
     "image": "/static/images/lee-jong-suk.jpg"
   },
   {
-    "id": 12,
-    "name": "Woo Do-hwan",
-    "image": "/static/images/woo-do-hwan.jpg"
+    "id": 10,
+    "name": "Son Seok-koo",
+    "image": "/static/images/son-seok-koo.jpg"
   },
   {
-    "id": 13,
-    "name": "Ma Dong-Seok",
-    "image": "/static/images/ma-dong-seok.jpg"
-  },
-  {
-    "id": 14,
+    "id": 11,
     "name": "Cha Eun-woo",
     "image": "/static/images/cha-eun-woo.jpg"
   },
   {
-    "id": 15,
+    "id": 12,
     "name": "Hyun Bin",
     "image": "/static/images/hyun-bin.jpg"
   },
   {
-    "id": 16,
+    "id": 13,
     "name": "Song Joong-ki",
     "image": "/static/images/song-joong-ki.jpg"
   },
   {
-    "id": 17,
+    "id": 14,
     "name": "Seo In Guk",
     "image": "/static/images/seo-in-guk.jpg"
   },
   {
-    "id": 18,
-    "name": "Lee Byung-hun",
-    "image": "/static/images/lee-byung-hun.jpg"
-  },
-  {
-    "id": 19,
+    "id": 15,
     "name": "Taecyeon",
     "image": "/static/images/taecyeon.jpg"
   },
   {
-    "id": 20,
+    "id": 16,
     "name": "Kim Seon-ho",
     "image": "/static/images/kim-seon-ho.jpg"
   },
   {
-    "id": 21,
+    "id": 17,
     "name": "Ro Woon",
     "image": "/static/images/ro-woon.jpg"
   },
   {
-    "id": 22,
+    "id": 18,
     "name": "Park Bo-gum",
     "image": "/static/images/park-bo-gum.jpg"
   },
   {
-    "id": 23,
+    "id": 19,
     "name": "Choi Woo-shik",
     "image": "/static/images/choi-woo-shik.jpg"
   },
   {
-    "id": 24,
-    "name": "Kim Bum",
-    "image": "/static/images/kim-bum.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Kim Woo-bin",
-    "image": "/static/images/kim-woo-bin.jpg"
-  },
-  {
-    "id": 26,
+    "id": 20,
     "name": "Lee Min-ho",
     "image": "/static/images/lee-min-ho.jpg"
   },
   {
-    "id": 27,
+    "id": 21,
     "name": "Lee Joon-gi",
     "image": "/static/images/lee-joon-gi.jpg"
   },
   {
-    "id": 28,
+    "id": 22,
     "name": "Lee Junho",
     "image": "/static/images/lee-junho.jpg"
   },
   {
-    "id": 29,
+    "id": 23,
     "name": "Lee Jae-wook",
     "image": "/static/images/lee-jae-wook.jpg"
   },
   {
-    "id": 30,
+    "id": 24,
     "name": "Ji Sung",
     "image": "/static/images/ji-sung.jpg"
   },
   {
-    "id": 31,
+    "id": 25,
     "name": "So Ji-sub",
     "image": "/static/images/so-ji-sub.jpg"
   },
   {
-    "id": 32,
-    "name": "Kim Min-gyu",
-    "image": "/static/images/kim-min-gyu.jpg"
+    "id": 26,
+    "name": "Joo Ji-hoon",
+    "image": "/static/images/joo-ji-hoon.jpg"
   },
   {
-    "id": 33,
+    "id": 27,
     "name": "Kang Tae-oh",
     "image": "/static/images/kang-tae-oh.jpg"
   },
   {
-    "id": 34,
+    "id": 28,
     "name": "Lomon",
     "image": "/static/images/lomon.jpg"
   },
   {
-    "id": 35,
+    "id": 29,
     "name": "Kang Ha-neul",
     "image": "/static/images/kang-ha-neul.jpg"
   },
   {
-    "id": 36,
+    "id": 30,
     "name": "Lee Jung-jae",
     "image": "/static/images/lee-jung-jae.jpg"
   },
   {
-    "id": 37,
+    "id": 31,
     "name": "Lee Seung-gi",
     "image": "/static/images/lee-seung-gi.jpg"
   },
   {
-    "id": 38,
+    "id": 32,
     "name": "Do Kyungsoo",
     "image": "/static/images/do-kyungsoo.jpg"
   },
   {
-    "id": 39,
+    "id": 33,
     "name": "Jang Hyuk",
     "image": "/static/images/jang-hyuk.jpg"
   },
   {
-    "id": 40,
+    "id": 34,
     "name": "Jo Jung-suk",
     "image": "/static/images/jo-jung-suk.jpg"
   },
   {
-    "id": 41,
+    "id": 35,
     "name": "Namgoong Min",
     "image": "/static/images/namgoong-min.jpg"
   },
   {
-    "id": 42,
+    "id": 36,
     "name": "Jang Ki-yong",
     "image": "/static/images/jang-ki-yong.jpg"
   },
   {
-    "id": 43,
-    "name": "Sung Dong-iI",
-    "image": "/static/images/sung-dong-ii.jpg"
+    "id": 37,
+    "name": "Nam Joo-hyuk",
+    "image": "/static/images/nam-joo-hyuk.jpg"
   },
   {
-    "id": 44,
+    "id": 38,
     "name": "Lee Soo-hyuk",
     "image": "/static/images/lee-soo-hyuk.jpg"
   },
   {
-    "id": 45,
+    "id": 39,
     "name": "Sungjae",
     "image": "/static/images/sungjae.jpg"
   },
   {
-    "id": 46,
+    "id": 40,
     "name": "Seo Kang-joon",
     "image": "/static/images/seo-kang-joon.jpg"
   },
   {
-    "id": 47,
-    "name": "Yoo Ah-in",
-    "image": "/static/images/yoo-ah-in.jpg"
+    "id": 41,
+    "name": "Joo Ji-hoon",
+    "image": "/static/images/joo-ji-hoon.jpg"
   },
   {
-    "id": 48,
+    "id": 42,
     "name": "Park Ji-hoon",
     "image": "/static/images/park-ji-hoon.jpg"
+  },    
+  {
+    "id": 43,
+    "name": "Lee Junho",
+    "image": "/static/images/lee-junho.jpg"
   },
   {
-    "id": 49,
-    "name": "Ahn Hyo-seop",
-    "image": "/static/images/ahn-hyo-seop.jpg"
-  },
-  {
-    "id": 50,
-    "name": "Sung Hoon",
-    "image": "/static/images/sung-hoon.jpg"
+    "id": 44,
+    "name": "Lee Junho",
+    "image": "/static/images/lee-junho.jpg"
   }
 ]
